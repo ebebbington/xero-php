@@ -88,6 +88,6 @@ class Product extends Model {
 
     public static function getAPIStem()
     {
-        return URL::API_CORE;
+        return URL::API_APPSTORE;
     }
 }
