@@ -88,7 +88,7 @@ class SubscriptionItem extends Model {
      */
     public function getStatus()
     {
-        return $this->data['status'];
+        return $this->_data['status'];
     }
 
     /**
@@ -136,6 +136,6 @@ class SubscriptionItem extends Model {
 
     public static function getAPIStem()
     {
-        return URL::API_CORE;
+        return URL::API_APPSTORE;
     }
 }
